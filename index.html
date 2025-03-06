@@ -3,15 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <title>Recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-            <ul>
-                <li><a href="./recipes/tomatoegg.html">Tomato Egg Recipe</a></li>
-                <li><a href="./recipes/cookedrice.html">Cooked Rice Recipe</a></li>
-                <li><a href="./recipes/boiledegg.html">Boiled Egg Recipe</a></li>
-            </ul>
+        <h1 class="header">Odin Recipes</h1>
+            
+        <div id="buttoncontainer">        
+            <a href="./recipes/tomatoegg.html" id="">
+                <button class="button" >
+                    <img src="./images/tomatoegg.jpg" height="250px" width="250px" alt="tomato egg">
+                    <p id="tomatoeggbutton">Tomato Egg Recipe</p>
+                </button>
+            </a>
+                
+                
+            <a href="./recipes/cookedrice.html">
+                <button class="button">
+                    <img src="./images/cookedrice.jpg" height="250px" width="250px" alt="rice in a bowl"> 
+                    <p id="ricebutton">Rice Recipe</p>
+                </button>
+            </a>
+                
+                
+            <a href="./recipes/boiledegg.html">
+                <button class="button">
+                    <img src="./images/boiledegg.jpg" height="250px" width="250px" alt="boiled egg">
+                    <p id="boiledeggbutton">Boiled Egg Recipe</p>
+                </button>
+            </a>
+        </div>       
 
     </body>
 </html>

@@ -1,0 +1,32 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: hsla(183, 100%, 79%, 0.503);
+}
+
+.header {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 48px;
+}
+
+.button {
+    background-color: aliceblue;
+}
+
+.subheader {
+    font-size: 24px;
+}
+
+li {
+    font-size: 18px;
+}
+
+#buttoncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
